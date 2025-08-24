@@ -1,18 +1,18 @@
-[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.6.1-8892BF.svg)](https://php.net/)
-[![Minimum PrestaShop Compatibility](https://img.shields.io/badge/prestashop-%3E%3D%201.7-8892BF.svg)](https://doc.prestashop.com/pages/viewpage.action?pageId=54264853)
-[![GitHub release](https://img.shields.io/github/v/release/prestaalba/ps_webhooks)](https://github.com/prestaalba/ps_webhooks/releases)
+[![Versión mínima de PHP](https://img.shields.io/badge/php-%3E%3D%205.6.1-8892BF.svg)](https://php.net/)
+[![Compatibilidad mínima con PrestaShop](https://img.shields.io/badge/prestashop-%3E%3D%201.7-8892BF.svg)](https://doc.prestashop.com/pages/viewpage.action?pageId=54264853)
+[![Versión en GitHub](https://img.shields.io/github/v/release/prestaalba/ps_webhooks)](https://github.com/prestaalba/ps_webhooks/releases)
 
-# PrestaShop Webhooks
+# Webhooks de PrestaShop
 
-Trigger real-time notifications on PrestaShop events attaching object data in JSON format to the request.
+Envía notificaciones en tiempo real sobre eventos de PrestaShop, adjuntando los datos del objeto en formato JSON a la solicitud.
 
-## Install
+## Instalación
 
-[Donwload a zip release](https://github.com/prestaalba/ps_webhooks/releases) and install it like any other module.
+[Descarga una versión en zip](https://github.com/prestaalba/ps_webhooks/releases) e instálala como cualquier otro módulo.
 
-## Use
+## Uso
 
-Go to the module configuration page in your PrestaShop back office. Create as many webhooks as needed by selecting the PrestaShop action and entity you want to monitor, and defining the target URL. Whenever the event is triggered, the related data will be sent in real time via a POST request, using the following JSON format example:
+Ve a la página de configuración del módulo en tu back office de PrestaShop. Crea tantos webhooks como necesites seleccionando la acción y la entidad de PrestaShop que quieras monitorear, y definiendo la URL de destino. Cada vez que se dispare el evento, los datos relacionados se enviarán en tiempo real mediante una solicitud **POST**, usando el siguiente ejemplo de formato JSON:
 
 ```json
 {
@@ -38,12 +38,14 @@ Go to the module configuration page in your PrestaShop back office. Create as ma
     "date_upd": "2025-08-20 05:50:00"
   }
 }
+
 ```
 
-## Contribute
+## Contribuir
 
-Any contributions are very welcome :)
+Cualquier contribución es muy bienvenida. :)
 
-## License
+## Licencia
 
-This module is released under an AFL license.
+Este módulo se publica bajo una licencia AFL.
+
