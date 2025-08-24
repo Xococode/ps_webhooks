@@ -10,6 +10,8 @@ Envía notificaciones en tiempo real sobre eventos de PrestaShop, adjuntando los
 
 [Descarga una versión en zip](https://github.com/prestaalba/ps_webhooks/releases) e instálala como cualquier otro módulo.
 
+[Documentación estilo xocostudio](https://www.canva.com/design/DAGw_TmT5pg/8IovtBIumRUDg9v459ixlA/view?utm_content=DAGw_TmT5pg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf039296268)
+
 ## Uso
 
 Ve a la página de configuración del módulo en tu back office de PrestaShop. Crea tantos webhooks como necesites seleccionando la acción y la entidad de PrestaShop que quieras monitorear, y definiendo la URL de destino. Cada vez que se dispare el evento, los datos relacionados se enviarán en tiempo real mediante una solicitud **POST**, usando el siguiente ejemplo de formato JSON:
@@ -48,4 +50,5 @@ Cualquier contribución es muy bienvenida. :)
 ## Licencia
 
 Este módulo se publica bajo una licencia AFL.
+
 
