@@ -6,7 +6,8 @@
 
 Envía notificaciones en tiempo real sobre eventos de PrestaShop, adjuntando los datos del objeto en formato JSON a la solicitud.
 
-![Modulo WebHooks](https://xococode.github.io/ps_webhooks/modulo-webhooks-prestashop-n8n-integracion.webp)
+![Modulo WebHooks](https://raw.githubusercontent.com/Xococode/ps_webhooks/main/modulo-webhooks-prestashop-n8n-integracion.webp)
+
 
 
 ## Instalación
@@ -53,6 +54,7 @@ Cualquier contribución es muy bienvenida. :)
 ## Licencia
 
 Este módulo se publica bajo una licencia AFL.
+
 
 
 
